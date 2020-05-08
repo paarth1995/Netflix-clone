@@ -1,0 +1,8 @@
+.v-image {
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.v-image:hover {
+  transform: scale(1.2);
+}
