@@ -70,8 +70,6 @@
         this.setCurrentUserName(this.getUserData[index].name)
         this.setCurrentUserAvatar(this.getUserData[index].src)
         this.$router.push( { name: 'Billboard', params: {index: index }});
-        console.log('Helloooo', this.getCurrentUserName);
-        console.log('This worked???', this.getCurrentUserAvatar);
       },
     },
     computed: {
